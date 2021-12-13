@@ -11,16 +11,13 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         
-         <properties>
-        <project.java.version>1.8</project.java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
+       
         <configuration>
           
                     <source>${project.java.version}</source>
                     <target>${project.java.version}</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
+                    <encoding>UTF-8</encoding>
                 
           <release>12</release>
         </configuration>
