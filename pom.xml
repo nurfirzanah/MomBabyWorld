@@ -11,6 +11,10 @@
 <version>4.8.2</version>
 <scope>test</scope>
 </dependency>
+ <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+</properties>
 </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
