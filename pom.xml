@@ -11,7 +11,7 @@
 <version>4.8.2</version>
 <scope>test</scope>
 </dependency>
- <dependencies>
+</dependencies>
     
   <build>
     <sourceDirectory>src</sourceDirectory>
