@@ -34,6 +34,9 @@
                 <execution>
                     <phase>package</phase>
                     <goals><goal>copy</goal></goals>
+                  <processTypes>
+     <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+  </processTypes>
                     <configuration>
                         <artifactItems>
                             <artifactItem>
