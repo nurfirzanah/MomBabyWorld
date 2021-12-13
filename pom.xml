@@ -22,9 +22,12 @@
         <source>1.8</source>
         <target>1.8</target>
     </configuration>
-      <plugin>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.2.3</version>
+     <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>12</release>
+        </configuration>
       </plugin>
        <plugin>
             <groupId>org.apache.maven.plugins</groupId>
